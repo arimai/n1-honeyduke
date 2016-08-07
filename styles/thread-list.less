@@ -1,0 +1,39 @@
+.list-container{
+	& .list-item{
+		border-bottom: none;
+		&.selected div.personal-level-icon img{
+			-webkit-filter : @filter-full-bright;
+		}
+		&.focused{
+			background: @thread-list-item-focused-bg;
+			color: @light-black !important;
+			border-right: 3px solid @thread-list-item-focused-border-bg;
+			border-bottom: none!important;
+			cursor: pointer !important;
+			&:hover{
+				background: transparent!important;
+			}
+			& div.personal-level-icon img{
+            	-webkit-filter : @filter-full-bright;
+ 			}
+		}
+	}
+}
+.thread-list .focused{
+	& .thread-icon{
+		-webkit-filter: @filter-full-bright;
+	}
+	& .mail-label, .draft-list .focused .mail-label{
+		background: @bright-green !important; 
+		color: white !important;
+	    -webkit-filter: @filter-full-bright;
+	}
+	& .timestamp, .draft-list .focused .timestamp{
+		color: @awesome-pink;
+		opacity: 1;
+	}
+}
+.mail-important-icon.enabled.active{
+	background-image: @thread-list-important-icon-bg;
+    -webkit-filter: @filter-full-bright;
+}
