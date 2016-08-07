@@ -1,6 +1,8 @@
 
 # Honeyduke N1 Theme
 A vibrant N1 Theme for [Nylas N1](http://www.nylas.com/n1), the extensible, open-source email client.
+
+
 ![Screenshot](/images/screenshot.png)
 
 ## Getting Started

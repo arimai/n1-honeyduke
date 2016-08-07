@@ -12,9 +12,14 @@
     right: 0;
     z-index: -1;   
   }
-  .nylas-outline-view .heading{
+  .nylas-outline-view {
+    & .heading{
     color:rgba(0,0,0,0.8);
     font-weight: bolder;
+    }
+    & .item .item-count-box.alt-count{
+      background: @bright-green;
+    }
   }
   .item.selected{
     background: @account-sidebar-selected-item-bg;
