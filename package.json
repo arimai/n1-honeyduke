@@ -1,10 +1,10 @@
 {
   "name": "honeyduke",
-  "title": "A beautiful and fun theme for your N1 mail client",
-  "displayName": "honeyduke",
+  "title": "Honeyduke",
+  "displayName": "Honeyduke",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "",
+  "description": "A vibrant theme for N1",
   "license": "GPL-3.0",
   "engines": {
     "nylas": "*"
