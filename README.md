@@ -8,7 +8,7 @@ A vibrant N1 Theme for [Nylas N1](http://www.nylas.com/n1), the extensible, open
 ## Getting Started
 Installing a new theme in N1 is easy!
 
-1. Clone this repo or download as zip. 
+1. Download the [latest release](https://github.com/arimai/n1-honeyduke/releases) of the Honeyduke theme. 
 
 2. Open N1 and install the theme by going to `Nylas N1 > Install New Theme...` and selecting the directory where you saved the zip folder.
 
