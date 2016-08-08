@@ -61,7 +61,18 @@
 	&.handler-split .list-item.selected{
 		background: @light-ghee;
 		color:inherit;
-		border-bottom:solid 1px @light-gray;
+		border-bottom:solid 1px @light-gray !important;
+
+		& .mail-label{
+			//restoring to defaults
+			background-color: rgb(243,226,202) !important;
+			box-shadow: rgb(194, 135, 45) 0px 0px 1px inset, rgba(255, 255, 255, 0.498039) 0px 1px 1px inset, rgba(255, 255, 255, 0.498039) 0px 0.5px 0px !important;		
+			color: rgb(130, 95, 43);
+			-webkit-filter: @filter-full-bright !important;
+		}
+		& .mail-important-icon,& .thread-icon{
+			-webkit-filter: @filter-full-bright !important;
+		}
 	}
 }
 
@@ -69,3 +80,4 @@
 	background-image: @thread-list-important-icon-bg;
     -webkit-filter: @filter-full-bright;
 }
+
